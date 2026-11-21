@@ -1,4 +1,4 @@
-openai>=1.40
+google-genai
 pypdf>=4.0
 numpy
 pandas
