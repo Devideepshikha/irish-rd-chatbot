@@ -21,7 +21,7 @@ from google.genai import errors, types
 
 load_dotenv()
 
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gemini-3.8-flash")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gemini-3.8-flash-lite")
 EMBED_MODEL = os.getenv("EMBED_MODEL", "gemini-embedding-001")
 INDEX_DIR = Path("index")
 STATS_CSV = Path("data/rd_stats.csv")
